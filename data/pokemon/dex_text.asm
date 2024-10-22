@@ -1507,3 +1507,13 @@ _VictreebelDexEntry::
 	next "has ever returned"
 	next "from there"
 	dex
+
+_PidoveDexEntry::
+	text "It’s forgetful and"
+	next "not very bright, "
+	next "but many Trainers"
+	
+	page "love it anyway for"
+	next "its friendliness"
+	next "and sincerity."
+	dex

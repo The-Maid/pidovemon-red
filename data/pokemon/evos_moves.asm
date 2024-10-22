@@ -40,7 +40,7 @@ EvosMovesPointerTable:
 	dw BlastoiseEvosMoves
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
-	dw MissingNo1FEvosMoves
+	dw PidoveEvosMoves
 	dw MissingNo20EvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
@@ -547,11 +547,17 @@ TangelaEvosMoves:
 	db 49, GROWTH
 	db 0
 
-MissingNo1FEvosMoves:
+PidoveEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 0
+	db 4,  LEER
+	db 8,  QUICK_ATTACK
+	db 24, FEATHERDANCE
+	db 32, AIR_SLASH
+	db 36, ROOST
+	db 40, TAILWIND
+	db 44, SKY_ATTACK
 
 MissingNo20EvosMoves:
 ; Evolutions

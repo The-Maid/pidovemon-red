@@ -175,5 +175,11 @@ Moves:
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
+	move AIR_SLASH,    FLINCH_SIDE_EFFECT1,         75, FLYING,        95, 20
+	move ROOST,   	   HEAL_EFFECT,                  0, FLYING,       100,  5
+	move TAILWIND,     SPEED_UP2_EFFECT,		     0, FLYING,		  100, 15
+	move FEATHERDANCE, ATTACK_DOWN2_EFFECT,			 0, FLYING,		  100, 15
+	move RETURN,	   NO_ADDITIONAL_EFFECT,	   102, NORMAL,	      100, 22
+	move WORK_UP,	   ATTACK_UP1_EFFECT,			 0, NORMAL, 	  100, 30
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

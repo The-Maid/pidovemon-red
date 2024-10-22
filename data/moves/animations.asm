@@ -164,6 +164,12 @@ AttackAnimationPointers:
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
+	dw AirSlashAnim
+	dw RoostAnim
+	dw TailwindAnim
+	dw FeatherDanceAnim
+	dw ReturnAnim
+	dw WorkUpAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -232,6 +238,7 @@ ZigZagScreenAnim:
 	battle_anim NO_MOVE, SE_WAVY_SCREEN
 	db -1 ; end
 
+ReturnAnim:
 PoundAnim:
 StruggleAnim:
 	battle_anim POUND, SUBANIM_0_STAR_TWICE, 0, 8
@@ -289,10 +296,12 @@ GuillotineAnim:
 	battle_anim GUILLOTINE, SUBANIM_0_SLICE_BOTH_SIDES, 0, 6
 	db -1 ; end
 
+AirSlashAnim:
 RazorWindAnim:
 	battle_anim RAZOR_WIND, SUBANIM_0_SLICE, 0, 4
 	db -1 ; end
 
+FeatherDanceAnim:
 SwordsDanceAnim:
 	battle_anim SWORDS_DANCE, SUBANIM_1_SWORDS_CIRCLING, 1, 6
 	battle_anim SWORDS_DANCE, SUBANIM_1_SWORDS_CIRCLING, 1, 6
@@ -627,6 +636,7 @@ LeechSeedAnim:
 	battle_anim STUN_SPORE, SUBANIM_1_SEED_LAND, 1, 21
 	db -1 ; end
 
+WorkUpAnim:
 GrowthAnim:
 	battle_anim GROWTH, SE_LIGHT_SCREEN_PALETTE
 	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
@@ -749,6 +759,7 @@ MeditateAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
+TailwindAnim:
 AgilityAnim:
 	battle_anim AGILITY, SE_LIGHT_SCREEN_PALETTE
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
@@ -795,6 +806,7 @@ DoubleTeamAnim:
 	battle_anim BARRIER, SUBANIM_1_BARRIER, 1, 6
 	db -1 ; end
 
+RoostAnim:
 RecoverAnim:
 	battle_anim RECOVER, SE_BLINK_MON
 	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE

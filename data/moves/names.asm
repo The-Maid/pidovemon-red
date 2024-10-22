@@ -164,5 +164,11 @@ MoveNames::
 	li "SUPER FANG"
 	li "SLASH"
 	li "SUBSTITUTE"
+	li "AIR SLASH"
+	li "ROOST"
+	li "TAILWIND"
+	li "FEATHERDANCE"
+	li "RETURN"
+	li "WORK UP"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
